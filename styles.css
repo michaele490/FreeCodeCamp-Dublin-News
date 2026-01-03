@@ -1,0 +1,16 @@
+body {
+  background-color: #edfffd;
+}
+
+h1 {
+  font-family: Tagesschrift, serif;
+  font-size: 2.7rem;
+}
+
+h2, h3 {
+  font-family: Merriweather, sans-serif;
+}
+
+p {
+  font-family: Tinos;
+}
