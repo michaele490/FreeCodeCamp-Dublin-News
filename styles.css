@@ -4,7 +4,8 @@ body {
 
 h1 {
   font-family: Tagesschrift, serif;
-  font-size: 3rem;
+  font-size: 3.2rem;
+  text-decoration: underline;
 }
 
 h2 {
@@ -73,7 +74,7 @@ h3 {
   font-size: 1rem;
 }
 .small-article1 p, .small-article2 p, .small-article3 p {
-  font-size: 0.95rem;
+  /*font-size: 0.95rem;*/
 }
 
 .small-article1, .small-article2, .small-article3 {
@@ -81,4 +82,23 @@ h3 {
   border: 1px solid #000;
   border-radius: 4px;
   padding: 5px;
+}
+
+time, .author {
+  font-size: 0.9rem;
+}
+
+.author {
+  margin-top: 1.5px;
+  margin-bottom: 0;
+}
+
+.date {
+  margin-top: 0;
+  margin-bottom: 1.5px;
+  color: #525252;
+}
+
+.author-name {
+  font-weight: bold;
 }
